@@ -1,5 +1,11 @@
+import Teams from "./Teams";
+
 function App() {
-  return <div>hello vite</div>;
+  return (
+    <div>
+      <Teams />
+    </div>
+  );
 }
 
 export default App;

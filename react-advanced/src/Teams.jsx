@@ -9,6 +9,7 @@ function Teams() {
   });
   return (
     <>
+    <h2>Teams</h2>
       <ul>
         {teams.map((team) => (
           <li key={team.id}>{team.full_name}</li>
